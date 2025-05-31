@@ -3,14 +3,15 @@ name = "zewif-zwl"
 version = "0.1.0"
 edition = "2024"
 authors = ["dorianvp <dorianvp@zingolabs.org>"]
+license = "MIT or Apache 2.0"
 
 [dependencies]
 zewif = { path = "../zewif" }
 
 anyhow = "1.0.95"
 hex = "0.4.3"
-# bc-components = "^0.17.0"
-# bc-envelope = "^0.24.0"
+# bc-components = "^0.21.0"
+# bc-envelope = "^0.29.0"
 zcash_primitives = { version = "0.20.0", features = ["transparent-inputs"] }
 zcash_encoding = "0.2.2"
 zcash_keys = { version = "0.5.0", features = [
