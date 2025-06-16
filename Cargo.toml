@@ -10,8 +10,8 @@ zewif = { path = "../zewif" }
 
 anyhow = "1.0.95"
 hex = "0.4.3"
-# bc-components = "^0.21.0"
-# bc-envelope = "^0.29.0"
+# bc-components = "^0.23.0"
+# bc-envelope = "^0.30.0"
 zcash_primitives = { version = "0.20.0", features = ["transparent-inputs"] }
 zcash_encoding = "0.2.2"
 zcash_keys = { version = "0.5.0", features = [
